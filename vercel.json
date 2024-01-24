@@ -1,6 +1,6 @@
 {
 
-"name":"the-bitpay-capital",
+"name":"mybankapps",
 "builds":[
     {
         "src":"myappserver.js",
