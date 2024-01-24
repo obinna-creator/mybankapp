@@ -2,9 +2,9 @@
   "name": "mybankapp",
   "version": "1.0.0",
   "description": "",
-  "main": "myappserver.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon myappserver.js"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
