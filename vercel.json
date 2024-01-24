@@ -1,0 +1,36 @@
+{
+
+"name":"the-bitpay-capital",
+"builds":[
+    {
+        "src":"myappserver.js",
+        "use":"@vercel/node"
+    }
+],
+
+"headers":[
+    {
+        "source":"/api/v1(.*)",
+        "headers":[
+            {
+                "keys":"Access-Control-Allow-Origin",
+                "value":"*"
+            }
+        ]
+
+    }
+],
+"rewrites":[
+    {
+        "source":"/(.*)",
+        "destination":"/myappserver.js"
+    }
+]
+
+
+
+
+
+
+
+}
